@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hi, iota9star</title>
+  <title>尽管如此世界依然美丽</title>
   
-  
+  <subtitle>iota9star</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichijou.io/"/>
-  <updated>2018-03-30T06:51:56.784Z</updated>
+  <updated>2018-03-31T09:29:55.464Z</updated>
   <id>http://nichijou.io/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://nichijou.io/2018/03/30/first%20meet%20hexo/"/>
     <id>http://nichijou.io/2018/03/30/first meet hexo/</id>
     <published>2018-03-30T04:08:46.000Z</published>
-    <updated>2018-03-30T06:51:56.784Z</updated>
+    <updated>2018-03-31T09:29:55.464Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="hello-hexo"><a href="#hello-hexo" class="headerlink" title="hello hexo"></a>hello hexo</h1><p>………………………….</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://github.com/kisssub/kisssub-app-android/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt=""></p><h1 id="爱恋BT-第三方客户端"><a href="#爱恋BT-第三方客户端" class="headerlink" title="爱恋BT 第三方客户端"></a>爱恋BT 第三方客户端</h1><p><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/yande.re%20432825%20bodysuit%20darling_in_the_franxx%20ic.jpg" alt=""></p><ul><li>感谢爱恋BT及其所有发布组</li><li>感谢本应用中所使用开源库的作者</li><li>再次感谢所有对此作出贡献的大家（90°鞠躬）</li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li>酷市场 - <a href="https://www.coolapk.com/apk/star.iota.kisssub" target="_blank" rel="noopener">爱恋</a></li></ul><h2 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h2><table><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-223838.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-223905.jpg" alt=""></td><br>    </tr><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224221.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224235.jpg" alt=""></td><br>    </tr><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224449.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224525.jpg" alt=""></td><br>    </tr><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224624.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224636.jpg" alt=""></td><br>    </tr><br></table><h2 id="Licenses"><a href="#Licenses" class="headerlink" title="Licenses"></a>Licenses</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Copyright 2018. iota9star</span><br><span class="line"></span><br><span class="line">Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span><br><span class="line">you may not use this file except in compliance with the License.</span><br><span class="line">You may obtain a copy of the License at</span><br><span class="line"></span><br><span class="line">    http://www.apache.org/licenses/LICENSE-2.0</span><br><span class="line"></span><br><span class="line">Unless required by applicable law or agreed to in writing, software</span><br><span class="line">distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span><br><span class="line">WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span><br><span class="line">See the License for the specific language governing permissions and</span><br><span class="line">limitations under the License.</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;hello-hexo&quot;&gt;&lt;a href=&quot;#hello-hexo&quot; class=&quot;headerlink&quot; title=&quot;hello hexo&quot;&gt;&lt;/a&gt;hello hexo&lt;/h1&gt;&lt;p&gt;………………………….&lt;/p&gt;
-
+        &lt;p&gt;&lt;img src=&quot;https://github.com/kisssub/kisssub-app-android/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=
       
     
     </summary>
