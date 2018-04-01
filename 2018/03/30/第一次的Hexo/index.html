@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
 
-    <link rel="stylesheet" href="/js/google-code-prettify/tomorrow-night-eighties.min.css">
+    <link rel="stylesheet" href="/js/google-code-prettify/my-heartbeat.css">
 
   </head>
 
@@ -37,6 +37,32 @@
 </form>
 	
 
+	
+		<!--侧边导航栏-->
+		<a id="nav-toggle" href="#"><span></span></a>
+
+<nav>
+	<div class="menu-top-container">
+		<ul id="menu-top" class="menu">
+			
+				
+				<li class="current-menu-item">
+					<a href="https://weibo.com/u/2814372897" target="_blank">weibo</a>
+				</li>
+			
+				
+				<li class="current-menu-item">
+					<a href="https://github.com/iota9star" target="_blank">github</a>
+				</li>
+			
+				
+				<li class="current-menu-item">
+					<a href="https://www.zhihu.com/people/iota9star" target="_blank">zhihu</a>
+				</li>
+			
+		</ul>
+	</div>
+</nav>
 	
 
 </header>
@@ -75,9 +101,51 @@
 </ul>
 <h2 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h2><table><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-223838.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-223905.jpg" alt=""></td><br>    </tr><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224221.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224235.jpg" alt=""></td><br>    </tr><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224449.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224525.jpg" alt=""></td><br>    </tr><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224624.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224636.jpg" alt=""></td><br>    </tr><br></table>
 
-<h2 id="Licenses"><a href="#Licenses" class="headerlink" title="Licenses"></a>Licenses</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Copyright 2018. iota9star</span><br><span class="line"></span><br><span class="line">Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span><br><span class="line">you may not use this file except in compliance with the License.</span><br><span class="line">You may obtain a copy of the License at</span><br><span class="line"></span><br><span class="line">    http://www.apache.org/licenses/LICENSE-2.0</span><br><span class="line"></span><br><span class="line">Unless required by applicable law or agreed to in writing, software</span><br><span class="line">distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span><br><span class="line">WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span><br><span class="line">See the License for the specific language governing permissions and</span><br><span class="line">limitations under the License.</span><br></pre></td></tr></table></figure>
+<h2 id="Licenses"><a href="#Licenses" class="headerlink" title="Licenses"></a>Licenses</h2><pre><code>Copyright 2018. iota9star
+
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</code></pre><pre><code>private static Map parseDataType(Object value) {
+    Map&lt;String, Object&gt; map = new LinkedHashMap&lt;String, Object&gt;();
+    if (value instanceof Map) {
+        return parseMap((Map) value);
+    } else if (value instanceof List) {
+        return parseArray(value);
+    } else if (value instanceof Boolean) {
+        map.put(&quot;type&quot;, DataType.BOOLEAN.type());
+        map.put(&quot;format&quot;, DataType.BOOLEAN.format());
+    } else if (value instanceof Integer) {
+        map.put(&quot;type&quot;, DataType.INTEGER.type());
+        map.put(&quot;format&quot;, DataType.INTEGER.format());
+    } else if (value instanceof Double) {
+        map.put(&quot;type&quot;, DataType.DOUBLE.type());
+        map.put(&quot;format&quot;, DataType.DOUBLE.format());
+    } else if (value instanceof Long) {
+        map.put(&quot;type&quot;, DataType.LONG.type());
+        map.put(&quot;format&quot;, DataType.LONG.format());
+    } else if (value instanceof Float) {
+        map.put(&quot;type&quot;, DataType.FLOAT.type());
+        map.put(&quot;format&quot;, DataType.FLOAT.format());
+    } else {
+        map.put(&quot;type&quot;, DataType.STRING.type());
+        map.put(&quot;format&quot;, DataType.STRING.format());
+    }
+    return map;
+}
+</code></pre>
 	</div>
 	<div class="meta split">
+		
+			<span>本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次</span>
 		
 		<time class="post-date" datetime="2018-03-30T04:08:46.000Z" itemprop="datePublished">2018-03-30</time>
 	</div>
@@ -146,8 +214,6 @@
 							<li>
 				        		<a href="https://weibo.com/u/2814372897" target="_blank">
 				        			
-				        				<i class="iconfont icon-weibo"></i>
-				        			
 				        		</a>
 				        	</li>
 						
@@ -155,16 +221,12 @@
 							<li>
 				        		<a href="https://github.com/iota9star" target="_blank">
 				        			
-				        				<i class="iconfont icon-github"></i>
-				        			
 				        		</a>
 				        	</li>
 						
 							
 							<li>
 				        		<a href="https://www.zhihu.com/people/iota9star" target="_blank">
-				        			
-										<i class="iconfont icon-zhihu"></i>
 				        			
 				        		</a>
 				        	</li>
@@ -179,6 +241,8 @@
 <footer class="footer" role="contentinfo">
 	<div class="wrapper wrapper--wide split split--responsive">
 		
+			<span>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次, 访客数 <span id="busuanzi_value_site_uv"></span> 人次</span>
+		
 		<span>Theme by <a href="http://github.com/yumemor">Yumemor</a>. Powered by <a href="http://hexo.io">Hexo</a></span>
 	</div>
 </footer>
@@ -189,6 +253,8 @@
 	<script src="/js/google-code-prettify/prettify.js"></script>
 	<script src="/js/module.js"></script>
 	<script src="/js/script.js"></script>
+	
+		<script async src="http://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	
 	<script type='text/javascript'>
 		//代码高亮
