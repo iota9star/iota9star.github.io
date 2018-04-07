@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichijou.io/"/>
-  <updated>2018-04-07T13:03:40.169Z</updated>
+  <updated>2018-04-07T13:35:04.577Z</updated>
   <id>http://nichijou.io/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Android 去掉网络叉叉</title>
+    <title>Android 去掉网络叉叉（叹号）</title>
     <link href="http://nichijou.io/2018/04/07/Android%20%E5%8E%BB%E9%99%A4%E7%BD%91%E7%BB%9C%E5%8F%89%E5%8F%89/"/>
     <id>http://nichijou.io/2018/04/07/Android 去除网络叉叉/</id>
-    <published>2018-04-06T16:00:00.000Z</published>
-    <updated>2018-04-07T13:03:40.169Z</updated>
+    <published>2018-04-07T13:00:00.000Z</published>
+    <updated>2018-04-07T13:35:04.577Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="高速快捷的去掉叉叉"><a href="#高速快捷的去掉叉叉" class="headerlink" title="高速快捷的去掉叉叉"></a>高速快捷的去掉叉叉</h2><pre><code class="shell">adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204</code></pre>]]></content>
+    <content type="html"><![CDATA[<h3 id="adb-下载地址（部分地区可能需要梯子）"><a href="#adb-下载地址（部分地区可能需要梯子）" class="headerlink" title="adb 下载地址（部分地区可能需要梯子）"></a>adb 下载地址（部分地区可能需要梯子）</h3><h4 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h4><p><a href="https://developer.android.google.cn/studio/releases/platform-tools.html#revisions" target="_blank" rel="noopener">SDK Platform-Tools</a>  </p><h4 id="快速下载"><a href="#快速下载" class="headerlink" title="快速下载"></a>快速下载</h4><p><a href="https://dl.google.com/android/repository/platform-tools-latest-windows.zip" target="_blank" rel="noopener">SDK Platform-Tools for Windows</a><br><a href="https://dl.google.com/android/repository/platform-tools-latest-darwin.zip" target="_blank" rel="noopener">SDK Platform-Tools for Mac</a><br><a href="https://dl.google.com/android/repository/platform-tools-latest-linux.zip" target="_blank" rel="noopener">SDK Platform-Tools for Linux</a></p><h3 id="adb-命令"><a href="#adb-命令" class="headerlink" title="adb 命令"></a>adb 命令</h3><h4 id="Android-5-0-6-0"><a href="#Android-5-0-6-0" class="headerlink" title="Android 5.0 ~ 6.0"></a>Android 5.0 ~ 6.0</h4><pre><code class="shell">adb shell &quot;settings put global captive_portal_server https://www.google.cn&quot;</code></pre><h4 id="Android-7-0-8-1-0"><a href="#Android-7-0-8-1-0" class="headerlink" title="Android 7.0 ~ 8.1.0"></a>Android 7.0 ~ 8.1.0</h4><pre><code class="shell">adb shell &quot;settings put global captive_portal_https_url https://www.google.cn/generate_204&quot;</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;高速快捷的去掉叉叉&quot;&gt;&lt;a href=&quot;#高速快捷的去掉叉叉&quot; class=&quot;headerlink&quot; title=&quot;高速快捷的去掉叉叉&quot;&gt;&lt;/a&gt;高速快捷的去掉叉叉&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;adb shell settings p
+        &lt;h3 id=&quot;adb-下载地址（部分地区可能需要梯子）&quot;&gt;&lt;a href=&quot;#adb-下载地址（部分地区可能需要梯子）&quot; class=&quot;headerlink&quot; title=&quot;adb 下载地址（部分地区可能需要梯子）&quot;&gt;&lt;/a&gt;adb 下载地址（部分地区可能需要梯子）&lt;/h3&gt;&lt;
       
     
     </summary>
@@ -41,6 +41,8 @@
     
       <category term="Android" scheme="http://nichijou.io/tags/Android/"/>
     
+      <category term="网络叹号" scheme="http://nichijou.io/tags/%E7%BD%91%E7%BB%9C%E5%8F%B9%E5%8F%B7/"/>
+    
   </entry>
   
   <entry>
@@ -48,15 +50,15 @@
     <link href="http://nichijou.io/2018/03/30/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9A%84Hexo/"/>
     <id>http://nichijou.io/2018/03/30/第一次的Hexo/</id>
     <published>2018-03-30T04:08:46.000Z</published>
-    <updated>2018-04-07T13:02:37.639Z</updated>
+    <updated>2018-04-07T14:15:45.418Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="什么是Hexo"><a href="#什么是Hexo" class="headerlink" title="什么是Hexo"></a>什么是Hexo</h2><p>用官网的话来说：A fast, simple &amp; powerful blog framework, powered by <a href="https://nodejs.org/" target="_blank" rel="noopener">Node.js</a>.</p><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3>]]></content>
+    <content type="html"><![CDATA[<h3 id="什么是Hexo"><a href="#什么是Hexo" class="headerlink" title="什么是Hexo"></a>什么是Hexo</h3><p>用官网的话来说：A fast, simple &amp; powerful blog framework, powered by <a href="https://nodejs.org/" target="_blank" rel="noopener">Node.js</a>.</p><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>下载<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a>并安装</p><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><p>下载<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git</a>并安装。安装完成后登录自己的github账号</p><h3 id="初始化-Hexo"><a href="#初始化-Hexo" class="headerlink" title="初始化 Hexo"></a>初始化 Hexo</h3><ol><li>在磁盘建立个人的博客文件夹，这个文件夹就是放置Hexo文件的目录  </li><li>进入这个目录，鼠标右键，选择<code>Git Bash Here</code>，使用命令<code>npm i -g hexo</code>即可开始安装Hexo</li><li>使用<code>hexo -v</code>命令查看是否安装好Hexo，若安装完成则使用命令<code>hexo init</code>即可初始化博客目录</li><li>使用命令<code>hexo g</code>解析markdown文件生成html文件，使用命令<code>hexo s</code>启动服务预览</li><li>浏览器访问<code>http://localhost:4000/</code>即可预览效果</li><li>配置_config.yml，填入自己的github信息</li><li>使用命令<code>hexo d</code>即可发布到github<h3 id="更多Hexo命令"><a href="#更多Hexo命令" class="headerlink" title="更多Hexo命令"></a>更多Hexo命令</h3>请查看<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo官网</a></li></ol>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;什么是Hexo&quot;&gt;&lt;a href=&quot;#什么是Hexo&quot; class=&quot;headerlink&quot; title=&quot;什么是Hexo&quot;&gt;&lt;/a&gt;什么是Hexo&lt;/h2&gt;&lt;p&gt;用官网的话来说：A fast, simple &amp;amp; powerful blog framewo
+        &lt;h3 id=&quot;什么是Hexo&quot;&gt;&lt;a href=&quot;#什么是Hexo&quot; class=&quot;headerlink&quot; title=&quot;什么是Hexo&quot;&gt;&lt;/a&gt;什么是Hexo&lt;/h3&gt;&lt;p&gt;用官网的话来说：A fast, simple &amp;amp; powerful blog framewo
       
     
     </summary>

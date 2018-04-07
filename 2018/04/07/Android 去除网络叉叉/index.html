@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     
-    <title>Android 去掉网络叉叉 | 尽管如此世界依然美丽</title>
+    <title>Android 去掉网络叉叉（叹号） | 尽管如此世界依然美丽</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     
@@ -84,12 +84,16 @@
 	
   
     <h1 class="post-title" itemprop="name">
-      Android 去掉网络叉叉
+      Android 去掉网络叉叉（叹号）
     </h1>
   
 
 	<div class='post-body mb'>
-		<h2 id="高速快捷的去掉叉叉"><a href="#高速快捷的去掉叉叉" class="headerlink" title="高速快捷的去掉叉叉"></a>高速快捷的去掉叉叉</h2><pre><code class="shell">adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204
+		<h3 id="adb-下载地址（部分地区可能需要梯子）"><a href="#adb-下载地址（部分地区可能需要梯子）" class="headerlink" title="adb 下载地址（部分地区可能需要梯子）"></a>adb 下载地址（部分地区可能需要梯子）</h3><h4 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h4><p><a href="https://developer.android.google.cn/studio/releases/platform-tools.html#revisions" target="_blank" rel="noopener">SDK Platform-Tools</a>  </p>
+<h4 id="快速下载"><a href="#快速下载" class="headerlink" title="快速下载"></a>快速下载</h4><p><a href="https://dl.google.com/android/repository/platform-tools-latest-windows.zip" target="_blank" rel="noopener">SDK Platform-Tools for Windows</a><br><a href="https://dl.google.com/android/repository/platform-tools-latest-darwin.zip" target="_blank" rel="noopener">SDK Platform-Tools for Mac</a><br><a href="https://dl.google.com/android/repository/platform-tools-latest-linux.zip" target="_blank" rel="noopener">SDK Platform-Tools for Linux</a></p>
+<h3 id="adb-命令"><a href="#adb-命令" class="headerlink" title="adb 命令"></a>adb 命令</h3><h4 id="Android-5-0-6-0"><a href="#Android-5-0-6-0" class="headerlink" title="Android 5.0 ~ 6.0"></a>Android 5.0 ~ 6.0</h4><pre><code class="shell">adb shell &quot;settings put global captive_portal_server https://www.google.cn&quot;
+</code></pre>
+<h4 id="Android-7-0-8-1-0"><a href="#Android-7-0-8-1-0" class="headerlink" title="Android 7.0 ~ 8.1.0"></a>Android 7.0 ~ 8.1.0</h4><pre><code class="shell">adb shell &quot;settings put global captive_portal_https_url https://www.google.cn/generate_204&quot;
 </code></pre>
 
 	</div>
@@ -97,7 +101,7 @@
 		
 			<span>本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次</span>
 		
-		<time class="post-date" datetime="2018-04-06T16:00:00.000Z" itemprop="datePublished">2018-04-07</time>
+		<time class="post-date" datetime="2018-04-07T13:00:00.000Z" itemprop="datePublished">2018-04-07</time>
 	</div>
 </article>
 
