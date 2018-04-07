@@ -3,15 +3,30 @@
   
     
     <entry>
-      <title>第一次的Hexo</title>
-      <link href="/2018/03/30/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9A%84Hexo/"/>
-      <url>/2018/03/30/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9A%84Hexo/</url>
-      <content type="html"><![CDATA[<p><img src="https://github.com/kisssub/kisssub-app-android/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt=""></p><h1 id="爱恋BT-第三方客户端"><a href="#爱恋BT-第三方客户端" class="headerlink" title="爱恋BT 第三方客户端"></a>爱恋BT 第三方客户端</h1><p><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/yande.re%20432825%20bodysuit%20darling_in_the_franxx%20ic.jpg" alt=""></p><ul><li>感谢爱恋BT及其所有发布组</li><li>感谢本应用中所使用开源库的作者</li><li>再次感谢所有对此作出贡献的大家（90°鞠躬）</li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li>酷市场 - <a href="https://www.coolapk.com/apk/star.iota.kisssub" target="_blank" rel="noopener">爱恋</a></li></ul><h2 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h2><table><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-223838.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-223905.jpg" alt=""></td><br>    </tr><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224221.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224235.jpg" alt=""></td><br>    </tr><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224449.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224525.jpg" alt=""></td><br>    </tr><br>    <tr><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224624.jpg" alt=""></td><br>        <td><img src="https://github.com/kisssub/kisssub-app-android/blob/master/screenshots/Screenshot_20180209-224636.jpg" alt=""></td><br>    </tr><br></table><h2 id="Licenses"><a href="#Licenses" class="headerlink" title="Licenses"></a>Licenses</h2><pre><code>Copyright 2018. iota9starLicensed under the Apache License, Version 2.0 (the &quot;License&quot;);you may not use this file except in compliance with the License.You may obtain a copy of the License at    http://www.apache.org/licenses/LICENSE-2.0Unless required by applicable law or agreed to in writing, softwaredistributed under the License is distributed on an &quot;AS IS&quot; BASIS,WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.See the License for the specific language governing permissions andlimitations under the License.</code></pre><pre><code>private static Map parseDataType(Object value) {    Map&lt;String, Object&gt; map = new LinkedHashMap&lt;String, Object&gt;();    if (value instanceof Map) {        return parseMap((Map) value);    } else if (value instanceof List) {        return parseArray(value);    } else if (value instanceof Boolean) {        map.put(&quot;type&quot;, DataType.BOOLEAN.type());        map.put(&quot;format&quot;, DataType.BOOLEAN.format());    } else if (value instanceof Integer) {        map.put(&quot;type&quot;, DataType.INTEGER.type());        map.put(&quot;format&quot;, DataType.INTEGER.format());    } else if (value instanceof Double) {        map.put(&quot;type&quot;, DataType.DOUBLE.type());        map.put(&quot;format&quot;, DataType.DOUBLE.format());    } else if (value instanceof Long) {        map.put(&quot;type&quot;, DataType.LONG.type());        map.put(&quot;format&quot;, DataType.LONG.format());    } else if (value instanceof Float) {        map.put(&quot;type&quot;, DataType.FLOAT.type());        map.put(&quot;format&quot;, DataType.FLOAT.format());    } else {        map.put(&quot;type&quot;, DataType.STRING.type());        map.put(&quot;format&quot;, DataType.STRING.format());    }    return map;}</code></pre>]]></content>
+      <title>Android 去掉网络叉叉</title>
+      <link href="/2018/04/07/Android%20%E5%8E%BB%E9%99%A4%E7%BD%91%E7%BB%9C%E5%8F%89%E5%8F%89/"/>
+      <url>/2018/04/07/Android%20%E5%8E%BB%E9%99%A4%E7%BD%91%E7%BB%9C%E5%8F%89%E5%8F%89/</url>
+      <content type="html"><![CDATA[<h2 id="高速快捷的去掉叉叉"><a href="#高速快捷的去掉叉叉" class="headerlink" title="高速快捷的去掉叉叉"></a>高速快捷的去掉叉叉</h2><pre><code class="shell">adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204</code></pre>]]></content>
       
       
         <tags>
             
-            <tag> 第一次 </tag>
+            <tag> 去掉网络叉叉 叉叉 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>第一次的Hexo</title>
+      <link href="/2018/03/30/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9A%84Hexo/"/>
+      <url>/2018/03/30/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9A%84Hexo/</url>
+      <content type="html"><![CDATA[<h2 id="什么是Hexo"><a href="#什么是Hexo" class="headerlink" title="什么是Hexo"></a>什么是Hexo</h2><p>用官网的话来说：A fast, simple &amp; powerful blog framework, powered by <a href="https://nodejs.org/" target="_blank" rel="noopener">Node.js</a>.</p><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 第一次 Hexo </tag>
             
         </tags>
       
