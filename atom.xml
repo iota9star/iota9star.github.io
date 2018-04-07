@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nichijou.io/"/>
-  <updated>2018-04-07T12:53:07.781Z</updated>
+  <updated>2018-04-07T13:03:40.169Z</updated>
   <id>http://nichijou.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://nichijou.io/2018/04/07/Android%20%E5%8E%BB%E9%99%A4%E7%BD%91%E7%BB%9C%E5%8F%89%E5%8F%89/"/>
     <id>http://nichijou.io/2018/04/07/Android 去除网络叉叉/</id>
     <published>2018-04-06T16:00:00.000Z</published>
-    <updated>2018-04-07T12:53:07.781Z</updated>
+    <updated>2018-04-07T13:03:40.169Z</updated>
     
     <content type="html"><![CDATA[<h2 id="高速快捷的去掉叉叉"><a href="#高速快捷的去掉叉叉" class="headerlink" title="高速快捷的去掉叉叉"></a>高速快捷的去掉叉叉</h2><pre><code class="shell">adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204</code></pre>]]></content>
     
@@ -35,7 +35,11 @@
     </summary>
     
     
-      <category term="去掉网络叉叉 叉叉" scheme="http://nichijou.io/tags/%E5%8E%BB%E6%8E%89%E7%BD%91%E7%BB%9C%E5%8F%89%E5%8F%89-%E5%8F%89%E5%8F%89/"/>
+      <category term="去掉网络叉叉" scheme="http://nichijou.io/tags/%E5%8E%BB%E6%8E%89%E7%BD%91%E7%BB%9C%E5%8F%89%E5%8F%89/"/>
+    
+      <category term="叉叉" scheme="http://nichijou.io/tags/%E5%8F%89%E5%8F%89/"/>
+    
+      <category term="Android" scheme="http://nichijou.io/tags/Android/"/>
     
   </entry>
   
@@ -44,7 +48,7 @@
     <link href="http://nichijou.io/2018/03/30/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9A%84Hexo/"/>
     <id>http://nichijou.io/2018/03/30/第一次的Hexo/</id>
     <published>2018-03-30T04:08:46.000Z</published>
-    <updated>2018-04-07T12:34:32.459Z</updated>
+    <updated>2018-04-07T13:02:37.639Z</updated>
     
     <content type="html"><![CDATA[<h2 id="什么是Hexo"><a href="#什么是Hexo" class="headerlink" title="什么是Hexo"></a>什么是Hexo</h2><p>用官网的话来说：A fast, simple &amp; powerful blog framework, powered by <a href="https://nodejs.org/" target="_blank" rel="noopener">Node.js</a>.</p><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3>]]></content>
     
@@ -58,7 +62,9 @@
     </summary>
     
     
-      <category term="第一次 Hexo" scheme="http://nichijou.io/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1-Hexo/"/>
+      <category term="hexo" scheme="http://nichijou.io/tags/hexo/"/>
+    
+      <category term="第一次" scheme="http://nichijou.io/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/"/>
     
   </entry>
   
